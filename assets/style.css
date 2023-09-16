@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    margin: 0;
+    background-color: #3e88f0;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: #96b4ff;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+}
+
+#pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    border: 2px solid dodgerblue;
+}
+
+#name {
+    color: dodgerblue;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 20px;
+}
+
+#about {
+    margin-left: 850px;
+    margin-right: 20px;
+}
+
+a {
+    color: dodgerblue;
+    text-decoration: underline;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+.menu{
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#trex {
+    width: 250px;
+    height: 300px;
+    border: 2px solid white;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+#speedracer {
+    width: 250px;
+    height: 300px;
+    border: 2px solid white;
+    padding-left: 40px;
+    padding-right: 0px;
+    padding-top: 20px;
+}
+
+#footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.myimg {
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.aside {
+    border: 10px solid fuchsia;
+    border-image: url("https://th.bing.com/th/id/OIP.XC1JzbWkegin5Y6QQr2v1AHaCy?pid=ImgDet&rs=1") 13 30 7 1 fill repeat;
+}
+
+@-webkit-keyframes flip-in-ver-left{0%{-webkit-transform:rotateY(80deg);transform:rotateY(80deg);opacity:0}100%{-webkit-transform:rotateY(0);transform:rotateY(0);opacity:1}}@keyframes flip-in-ver-left{0%{-webkit-transform:rotateY(80deg);transform:rotateY(80deg);opacity:0}100%{-webkit-transform:rotateY(0);transform:rotateY(0);opacity:1}}
+.flip-in-ver-left{-webkit-animation:flip-in-ver-left .5s cubic-bezier(.25,.46,.45,.94) both;animation:flip-in-ver-left .5s cubic-bezier(.25,.46,.45,.94) both}
